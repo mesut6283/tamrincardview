@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Podcast</string>
+  <string name="mytext"><b><i>Joshua:</i></b> Beat it and don’t come back!\n\n<b>Rosa:</b> What’s all the noise?\n\nJoshua: It’s the neighborhood kids. All I want to do on this sunny afternoon is sit out on the porch and enjoy the day. But those neighborhood kids keep coming around and making all kinds of noise. Hey you, shoo!\n\nRosa: They’re just trying to get a rise out of you. Maybe if you ignore them and stop waving them off and telling them to run along, they’ll go away on their own.\n\nJoshua: If I don’t tell them to get lost, they’ll sit here in front of my house and clown around. They’ll make so much noise it’ll wreck my peace and quiet. Hey, I see you. Take a hike!Rosa: I think I know what to do to get you that peace and quiet. I’ll be right back.\n\nJoshua: Where are you going?\n\nRosa: I’m going to get a plate of cookies for those kids.\n\n\nJoshua: Are you crazy? Are you rewarding those rowdy troublemakers with cookies?!\n\n\n\nRosa: It’s a bribe and it always works.
+</string>
+
+    <string name="mytextwebview">
+<![CDATA[
+<body style="text-align:justify;font-size:110%;font-family:Calibri (Body)">
+
+<p><span style=\"color: #808080;\"><strong>Joshua:</strong></span> Beat it and don&rsquo;t come back!</p>
+<p><span style=\"color: #808080;\"><strong>Rosa:</strong> </span>What&rsquo;s all the noise?<br /> <br />
+ <span style=\"color: #808080;\"><strong>Joshua:</strong></span> It&rsquo;s the neighborhood kids. All I want to do on this sunny afternoon is sit out on the porch and enjoy the day. But those neighborhood kids keep coming around and making all kinds of noise. Hey you, shoo!<br /> <br />
+ <span style=\"color: #808080;\"><strong>Rosa:</strong></span> They&rsquo;re just trying to get a rise out of you. Maybe if you ignore them and stop waving them off and telling them to run along, they&rsquo;ll go away on their own.<br /> <br />
+ <span style=\"color: #808080;\"> <strong>Joshua:</strong></span> If I don&rsquo;t tell them to get lost, they&rsquo;ll sit here in front of my house and clown around. They&rsquo;ll make so much noise it&rsquo;ll wreck my peace and quiet. Hey, I see you. Take a hike!</p>
+<p><span style=\"color: #808080;\"><strong>Rosa:</strong></span> I think I know what to do to get you that peace and quiet. I&rsquo;ll be right back.</p>
+<p><span style=\"color: #808080;\"><strong>Joshua:</strong></span> Where are you going?<br /> <br />
+<span style=\"color: #808080;\"><strong>Rosa:</strong></span> I&rsquo;m going to get a plate of cookies for those kids.<br />
+<span style=\"color: #808080;\"><strong>Joshua:</strong></span> Are you crazy? Are you rewarding those rowdy troublemakers with cookies?!<br /> <br />
+ <span style=\"color: #808080;\"><strong>Rosa:</strong></span> It&rsquo;s a bribe and it always works.</p>
+<span style=\"color: #808080;\"><strong>Rosa:</strong></span> It&rsquo;s a bribe and it always works.</p>
+
+</body>
+]]>
+
+    </string>
+
+</resources>
