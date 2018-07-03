@@ -27,7 +27,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     implementation 'com.android.support:cardview-v7:26.1.0'
     //Assets SQLite Helper
-    compile 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
     //for justify textview texts
-    compile 'me.biubiubiu.justifytext:library:1.1'
+    implementation 'me.biubiubiu.justifytext:library:1.1'
+
 }

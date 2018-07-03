@@ -8,20 +8,25 @@
     tools:context="com.example.danesh.tamrincardview.Activity.Activity.MediaActivity">
 
     <ScrollView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="400dp">
 
 
-
+<TextView
+    android:id="@+id/textDisplay2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="20dp"/>
 
 
 
     </ScrollView>
     <WebView
+
         android:id="@+id/textContent"
-        android:layout_width="fill_parent"
-        android:layout_height="410dp"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <!-- Timer Display -->
     <LinearLayout
         android:id="@+id/timerDisplay"

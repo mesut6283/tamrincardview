@@ -14,6 +14,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.danesh.tamrincardview.Modal.LessonClass;
 import com.example.danesh.tamrincardview.Modal.MyDatabaseClass;
@@ -45,6 +46,17 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(Main2Activity.this, MediaActivity.class);
+
+
+                LessonClass temp = lessonList.get(i);
+                temp.getContentLesson();
+
+                //Toast.makeText(getApplicationContext(), "nameLesson:  " + temp.getContentLesson(), Toast.LENGTH_SHORT).show();
+
+
+                intent.putExtra("contentLesson", temp.getContentLesson());
+                intent.putExtra("namelesson",temp.getNameLesson());
+
                 startActivity(intent);
             }
         });

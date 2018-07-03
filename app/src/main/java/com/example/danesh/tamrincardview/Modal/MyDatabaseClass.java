@@ -41,6 +41,7 @@ public class MyDatabaseClass {
                 lesson.setNameLesson(cr.getString(cr.getColumnIndex("name_lesson")));
 
                 lesson.setTaglineLesson(cr.getString(cr.getColumnIndex("tagline_lesson")));
+                lesson.setContentLesson(cr.getString(cr.getColumnIndex("content_lesson")));
                 lesson.setPicLesson(cr.getBlob(cr.getColumnIndex("pic_lesson")));
                 lessonList.add(lesson);
 

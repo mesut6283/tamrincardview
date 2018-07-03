@@ -1,9 +1,19 @@
 package com.example.danesh.tamrincardview.Modal;
 
 public class LessonClass {
-String nameLesson;
+    String nameLesson;
     String taglineLesson;
+    String contentLesson;
     byte[] picLesson;
+
+    public String getContentLesson() {
+        return contentLesson;
+    }
+
+    public void setContentLesson(String contentLesson) {
+        this.contentLesson = contentLesson;
+    }
+
 
     public String getNameLesson() {
         return nameLesson;
@@ -28,7 +38,6 @@ String nameLesson;
     public void setPicLesson(byte[] picLesson) {
         this.picLesson = picLesson;
     }
-
 
 
 }

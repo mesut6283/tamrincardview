@@ -5,9 +5,12 @@ import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnTimedTextListener;
 import android.media.MediaPlayer.TrackInfo;
 import android.media.TimedText;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.Html;
 import android.text.SpannableString;
+import android.text.Spanned;
 import android.text.style.BackgroundColorSpan;
 import android.util.Log;
 import android.view.View;
@@ -63,8 +66,10 @@ public class MediaActivity extends Activity implements OnTimedTextListener,Media
         songTotalDurationLabel = (TextView) findViewById(R.id.songTotalDurationLabel);
         utils = new Utilities();
 
+        String filename = "eslpod1229";
+        int idMp3 = getResources().getIdentifier(filename, "raw", getPackageName());
+        player = MediaPlayer.create(this, idMp3);
 
-        player = MediaPlayer.create(this, R.raw.eslpod1229);
         try {
             player.addTimedTextSource(getSubtitleFile(R.raw.eslpod12290),
                     MediaPlayer.MEDIA_MIMETYPE_TEXT_SUBRIP);
@@ -294,10 +299,28 @@ public class MediaActivity extends Activity implements OnTimedTextListener,Media
 
     @Override
     public void onTimedText(final MediaPlayer mp, final TimedText text) {
-        final WebView view = (WebView) findViewById(R.id.textContent);
-        view.loadData(getString(R.string.mytextwebview), "text/html; charset=utf-8", "utf-8");
+        String contentLesson=getIntent().getExtras().getString("contentLesson");
+        String namelesson=getIntent().getStringExtra("namelesson");
+        namelesson=namelesson.replaceAll("\\s","");
 
-                                        //textview2=(TextView)findViewById(R.id.textDisplay2);
+        int  resourceId=getResources().getIdentifier(namelesson,"string",getPackageName());
+       // final WebView view = (WebView) findViewById(R.id.textContent);
+       // view.loadData(getString(resourceId), "text/html; charset=utf-8", "utf-8");
+
+
+
+
+            textview2=(TextView)findViewById(R.id.textDisplay2);
+
+        if (  android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N)
+        {
+           textview2.setText(Html.fromHtml(getString(resourceId),Html.FROM_HTML_MODE_LEGACY));
+        }
+        else {
+            textview2.setText(Html.fromHtml(getString(resourceId)));
+        }
+
+
         Log.i("My Message", "inside onTimedText Listener text = "+text);
         if (text != null) {
             handler.post(new Runnable() {
@@ -329,8 +352,8 @@ public class MediaActivity extends Activity implements OnTimedTextListener,Media
 //					int start = s.getSpanStart(this);
 //					int end = s.getSpanEnd(this);
 
-                    String b=text.getText().trim();
-                    view.findAllAsync(b);
+                    /*String b=text.getText().trim();
+                    view.findAllAsync(b);*/
 
 
                 }

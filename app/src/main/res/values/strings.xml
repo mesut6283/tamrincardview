@@ -7,7 +7,7 @@
 <![CDATA[
 <body style="text-align:justify;font-size:110%;font-family:Calibri (Body)">
 
-<p><span style=\"color: #808080;\"><strong>Joshua:</strong></span> Beat it and don&rsquo;t come back!</p>
+<p><span style=\"color: #ff0000;\"<strong>Joshua:</strong></span> Beat it and don&rsquo;t come back!</p>
 <p><span style=\"color: #808080;\"><strong>Rosa:</strong> </span>What&rsquo;s all the noise?<br /> <br />
  <span style=\"color: #808080;\"><strong>Joshua:</strong></span> It&rsquo;s the neighborhood kids. All I want to do on this sunny afternoon is sit out on the porch and enjoy the day. But those neighborhood kids keep coming around and making all kinds of noise. Hey you, shoo!<br /> <br />
  <span style=\"color: #808080;\"><strong>Rosa:</strong></span> They&rsquo;re just trying to get a rise out of you. Maybe if you ignore them and stop waving them off and telling them to run along, they&rsquo;ll go away on their own.<br /> <br />
@@ -24,4 +24,72 @@
 
     </string>
 
+    <string name="mytext1">
+
+        <![CDATA[
+     <body style="text-align:justify;color:white;background-color:black;">
+<p style=\"text-align: center;\"><strong>Time off from Work</strong></p>
+<p style="text-align: justify;">My buddy from college, Jack, was getting married and our friend Rob was planning a <strong><u>bachelor party</u></strong> for him in Vegas. It was going to be the last weekend of the month and I wanted to go. The trouble was, I was scheduled to work that weekend. I needed to get the <strong><u>time off from work</u></strong> or I was going to <strong><u>miss out</u></strong> on all the fun.</p>
+<p style="text-align: justify;">I have some <strong><u>vacation leave</u></strong>, but <strong><u>company policy</u></strong> requires that my boss <strong><u>sign off</u></strong> on any leave we take. I&rsquo;ve heard of companies doing that for longer periods of leave_ like <strong><u>maternity leave</u></strong><u> or <strong>leave of absence</strong></u>_ but our company does that even for vacation leave. I thought about just <strong><u>calling in sick</u></strong> that weekend_ I do have a lot of <strong><u>accumulated</u></strong><u> <strong>sick leave</strong></u>_ but I didn&rsquo;t think my boss would appreciate me <strong><u>leaving him hanging</u>. </strong></p>
+<p style="text-align: justify;">In the end, I just asked him straight out and, to my surprise, he said &ldquo;okay&rdquo;. Now, I just need to get ready for a <strong><u>wild weekend</u></strong> with the guys. I can&rsquo;t wait.</p>
+</body>
+]]>
+
+    </string>
+
+
+<string name="Aworkersstrike">
+        <![CDATA[
+<body style="text-align:justify;color:white;background-color:black;">
+
+<p style="text-align: center;"><strong>A Workers Strike</strong></p>
+<p><em><strong>Masako</strong>:</em> I think we should strike. We need to force management to listen to our <u>grievances</u>.</p>
+<p><em><strong>Salvador</strong>:</em> <u>Hold on</u>. I think you&rsquo;re being too <u>hasty</u>. It&rsquo;s up to our union to call a strike, not the workers.</p>
+<p><em><strong>Masako</strong>:</em> I&rsquo;m not suggesting a formal strike, but we could organize a <u>sickout</u>. That would send a message that we mean business.</p>
+<p><em><strong>Salvador</strong>:</em> yeah, but that may also <u>get their backs up</u>. We need to give <u>collective bargaining</u> a chance to get us the contract we want.</p>
+<p><em><strong>Masako</strong>:</em> The union has been negotiating for two months and things have <u>stalled</u>. We need to do something to <u>put pressure on</u> the company to <u>come to our terms</u>. At the very least, we should <u>picket</u> outside the building.</p>
+<p><em><strong>Salvador:</strong></em> We should only do that if there&rsquo;s a strike. We don&rsquo;t want to make employees feel like they&rsquo;re <u>crossing the picket line</u> every time they come to work. That would be bad for morale.</p>
+<p><em><strong>Masako</strong>:</em> Nobody&rsquo;s going to feel like a <u>scab</u> if they all know why we&rsquo;re picketing. Let&rsquo;s call a meeting and see what everyone else thinks.</p>
+<p><em><strong>Salvador</strong>:</em> You can do that if you want, but <u>count me out</u>. I&rsquo;m going to let the union do its job.</p>
+
+
+</body>
+]]>
+    </string>
+
+    <string name="Timeofffromwork">
+
+      <![CDATA[
+<body style="text-align:justify;color:white;background-color:black;">
+        <p style="text-align: center;"><strong>T</strong><strong>ime off from Work</strong></p>
+<p>My buddy from college, Jack, was getting married and our friend Rob was planning a <u>bachelor party</u> for him in Vegas. It was going to be the last weekend of the month and I wanted to go. The trouble was, I was scheduled to work that weekend. I needed to get the <u>time off from work</u> or I was going to <u>miss out</u> on all the fun.</p>
+<p>I have some <u>vacation leave</u>, but <u>company policy</u> requires that my boss <u>sign off</u> on any leave we take. I&rsquo;ve heard of companies doing that for longer periods of leave_ like <u>maternity leave</u> or <u>leave of absence</u>_ but our company does that even for vacation leave. I thought about just <u>calling in sick</u> that weekend_ I do have a lot of <u>accumulated sick leave</u>_ but I didn&rsquo;t think my boss would appreciate me <u>leaving him hanging. </u></p>
+<p>In the end, I just asked him straight out and, to my surprise, he said &ldquo;okay&rdquo;. Now, I just need to get ready for a <u>wild weekend </u>with the guys. I can&rsquo;t wait.</p>
+
+    </body>
+]]>
+
+    </string>
+
+<string name="Meetingadeadline">
+
+    <![CDATA[
+<body style="text-align:justify;color:white;background-color:black;">
+
+    <p style="text-align: center;"><strong>Meeting a Deadline</strong></p>
+    <p><strong><em>Pam</em></strong>: you wanted to see me?</p>
+    <p><strong><em>Ed</em></strong>: Yes, I did. Have a seat. I want to talk to you about the Pulsen Project.</p>
+    <p><strong><em>Pam</em></strong>: I know I&rsquo;m a little late in getting that report to you, but I&rsquo;ve been <u>pulling out the stops</u> to get it done.</p>
+    <p><strong><em>Ed</em></strong>: But it&rsquo;s still not done, is it? You know that the <u>deadline</u> fort he next <u>milestone</u> of the project was this past Monday.</p>
+    <p><strong><em>Pam</em></strong>: Yes, I know, but the <u>scope</u> of the Project <u>turned out to be</u> a lot bigger than I had <u>anticipated</u>. And, they just didn&rsquo;t <u>allocate</u> enough <u>resources</u> for something this size. Is there any way we can <u>push back</u> the deadline by a week.</p>
+    <p><strong><em>Ed</em></strong>: <u>The time to ask that was</u> last week, not after you&rsquo;ve <u>missed</u> the deadline. I have the management <u>breathing down my neck </u>about this report. I&rsquo;ve tried <u>to stall</u> them fort he past two days and they&rsquo;re not happy.</p>
+    <p><strong><em>Pam</em></strong>: I promise to have it on your desk by tomorrow morning. <u>You have my word</u>.</p>
+    <p><strong><em>Ed</em></strong>: All right. I&rsquo;ll give you until 9:00 a.m. tomorrow. I&rsquo;m tired of <u>taking the heat</u>, though, and I don&rsquo;t plan to do it any longer.</p>
+    <p><strong><em>Pam</em></strong>: You can <u>count on me</u>.</p>
+    <p><strong><em>Ed</em></strong>: Don&rsquo;t <u>let me down</u>.</p>
+    <p><strong><em>Pam</em></strong>: I won&rsquo;t.</p>
+
+     </body>
+]]>
+</string>
 </resources>
